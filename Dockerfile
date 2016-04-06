@@ -12,7 +12,7 @@ RUN pip install -r requirements.txt
 ADD . /app
 
 # Make port 5000 available for links and/or publish
-EXPOSE 80 
+EXPOSE 5000
 
 # Environment Variables
 ENV NAME styfle
