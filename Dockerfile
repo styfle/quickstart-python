@@ -11,8 +11,8 @@ RUN pip install -r requirements.txt
 # Copy our code from the current folder to /app inside the container
 ADD . /app
 
-# Make port 5000 available for links and/or publish
-EXPOSE 5000
+# Flask runs on 80 but we will expose as 5000 in yml
+EXPOSE 80
 
 # Environment Variables
 ENV NAME styfle
