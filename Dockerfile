@@ -15,7 +15,7 @@ ADD . /app
 EXPOSE 80 
 
 # Environment Variables
-ENV NAME World
+ENV NAME styfle
 
 # Define our command to be run when launching the container
 CMD ["python", "app.py"]
